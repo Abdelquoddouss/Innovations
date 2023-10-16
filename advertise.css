@@ -1,0 +1,138 @@
+@import url(/header.css);
+a {
+  text-decoration: none;
+}
+
+header {
+  margin-bottom: 20px;
+}
+.photo {
+  width: 100%;
+  height: 750px;
+  background-image: url(/Innovations/image/advertise.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+.choix {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 90px;
+  margin-bottom: 100px;
+  border-bottom: #01070d 1px solid;
+}
+.choix1 {
+  padding-bottom: 25px;
+  border-bottom: #a17857 solid;
+}
+.under {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.tout {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.photo2 {
+  background-image: url(/illustration.png);
+  width: 35%;
+  height: 650px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.will_turn {
+  line-height: 60px;
+}
+.screen {
+  width: 70%;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.scren1 {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-bottom: px;
+}
+.scren1 img {
+  width: 10%;
+  height: 20%;
+  margin-right: 10px;
+}
+.exemple {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.ex1 {
+  display: flex;
+  gap: 30px;
+  width: 28%;
+  align-items: center;
+  justify-content: center;
+  line-height: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.text {
+  width: 50%;
+}
+.ex1 a {
+  margin-right: 100px;
+}
+.newssubcr {
+  display: flex;
+  justify-content: center;
+}
+.unit {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e1e1e1;
+  height: 200px;
+  border-radius: 6px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.newstext {
+  text-align: center;
+  margin: 0 20px;
+  text-align: justify;
+}
+.subcr {
+  width: 50%;
+  padding: 0;
+  gap: 10px;
+}
+.subcr .submit {
+  color: white;
+  width: 80px;
+  height: 50px;
+  border-radius: 6px;
+  background-color: green;
+  border: none;
+}
+.subcr .email {
+  height: 50px;
+  border-radius: 6px;
+  width: 70%;
+  border: none;
+  background-color: #c5c5c5;
+}
+.subcr .email::placeholder {
+  text-align: center;
+}
+.subcr .check::before {
+  background-color: #01070d;
+}
