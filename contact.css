@@ -3,60 +3,100 @@
   margin: 0;
 }
 
-.about_main {
-  width: 100%;
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+img {
+  min-width: 15px;
+}
+#imgg {
+  width: 150%;
+}
+
+.contact-img {
+  margin-top: 150PX;
   display: flex;
-  justify-content: space-between;
-  text-align: center;
+  justify-content: space-around;
   align-items: center;
+  
 }
-
-.about_main p {
-  font-size: 30px;
-  width: 50%;
-}
-
-.about_main img {
-  width: 50%;
-}
-
-.contactus-div{
-  background-color: #3fa3a30a;
-}
-
-form{
-  padding-top: 25px;
+.contact-form {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  align-items: center;
 }
-
-form input{
-  width: 450px;
-  height: 30px;
-  border: 1px solid black;
-  border-radius: 5px;
-  margin: 20px;
+.contact-form input {
+  margin-top: 1em;
+  width: 160%;
+  height: 65px;
+  border-radius: 10px;
 }
-
-form textarea{
-  width: 450px;
-  height: 100px;
-
+.contact-form textarea {
+  margin-top: 1em;
+  width: 160%;
+  height: 170px;
+  border-radius: 10px;
 }
- label{
-  font-size: 20px;
-  text-align: left;
-
- }
-
- #message{
-  display: block;
-     padding-bottom:10PX ;
-     width: 100px;
-
- }
-
-.messageALL{
+.contact-form button {
+  background-color: #4caf50;
+  color: white;
+  margin-top: 1em;
+  cursor: pointer;
+  height: 40px;
+  width: 90%;
+  border-radius: 10px;
+  margin-left: 7%;
+}
+.error{
+  width: 100%;
+  font-size: 15px;
+  color:red ;
+  font-family: Arial, Helvetica, sans-serif;
+  display: none;
+}
+footer {
+  padding: 60px;
   display: flex;
+  justify-content: space-between;
+}
+
+.logo-footer-list-items h4 {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.logo-footer-list-items ul li {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.logo-footer-log-name-contaner {
+  display: flex;
+  text-align: center;
+}
+
+.logo-footer-log-name-contaner h3 {
+  font-size: 30px;
+  padding-top: 2px;
+}
+
+.logo-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media  (max-width:600px) {
+  
+.contact-img{
+  display: flex;
+  flex-direction: column;
+  margin-top:auto;
+}
+
+#imgg{
+  width: 100%;
+}
+
 }

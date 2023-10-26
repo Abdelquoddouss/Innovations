@@ -6,31 +6,7 @@ a {
 header {
   margin-bottom: 20px;
 }
-.photo {
-  width: 100%;
-  height: 750px;
-  background-image: url(/Innovations/image/advertise.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 30px;
-}
-.choix {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.container {
-  width: 70%;
-  display: flex;
-  justify-content: space-between;
-  padding: 0px 90px;
-  margin-bottom: 100px;
-  border-bottom: #01070d 1px solid;
-}
-.choix1 {
-  padding-bottom: 25px;
-  border-bottom: #a17857 solid;
-}
+
 .under {
   width: 100%;
   display: flex;
@@ -39,17 +15,19 @@ header {
 .tout {
   width: 80%;
   display: flex;
-  justify-content: space-between;
+  
+  
 }
 .photo2 {
   background-image: url(/illustration.png);
   width: 35%;
-  height: 650px;
   background-size: cover;
   background-repeat: no-repeat;
+  
 }
 .will_turn {
   line-height: 60px;
+ 
 }
 .screen {
   width: 70%;
@@ -90,48 +68,104 @@ header {
 .ex1 a {
   margin-right: 100px;
 }
-.newssubcr {
+/* modal */
+
+.modall {
+  display: none;
+  position: fixed;
+  top:0;
+  width: 100%;
+  height:100%;
+ background-color: rgba(85, 76, 76, 0.313);
+}
+
+.modal-content {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  color: #eceff7;
+  height: 50vh;
+  background-color: rgb(83, 154, 130);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.toutes-les-reviews {
+  cursor: pointer;
   display: flex;
   justify-content: center;
+  gap: 20px;
+  padding: 40px;
 }
-.unit {
-  width: 60%;
+
+.les-logos {
+  width: 60px;
+}
+
+.les-logos-reviews {
+  background-color: #fff6ef;
+  border: 1px black;
+  border-radius: 20px;
+  box-shadow: -9px 1px 30px rgba(0, 0, 0, 0.3);
+  font-size: 19px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: justify;
+  padding: 0 4%;
+}
+.les-reviews h3 {
+  text-align: center;
+  padding: 20px;
+}
+footer {
+  padding: 60px;
   display: flex;
   justify-content: space-between;
-  background-color: #e1e1e1;
-  height: 200px;
-  border-radius: 6px;
-  align-items: center;
-  padding-bottom: 20px;
 }
-.newstext {
-  text-align: center;
-  margin: 0 20px;
-  text-align: justify;
+
+.logo-footer-list-items h4 {
+  font-size: 25px;
+  padding-bottom: 10px;
 }
-.subcr {
-  width: 50%;
-  padding: 0;
-  gap: 10px;
+.logo-footer-list-items ul li {
+  font-size: 18px;
+  padding-bottom: 10px;
 }
-.subcr .submit {
-  color: white;
-  width: 80px;
-  height: 50px;
-  border-radius: 6px;
-  background-color: green;
-  border: none;
-}
-.subcr .email {
-  height: 50px;
-  border-radius: 6px;
-  width: 70%;
-  border: none;
-  background-color: #c5c5c5;
-}
-.subcr .email::placeholder {
+
+.logo-footer-log-name-contaner {
+  display: flex;
   text-align: center;
 }
-.subcr .check::before {
-  background-color: #01070d;
+
+.logo-footer-log-name-contaner h3 {
+  font-size: 30px;
+  padding-top: 2px;
+}
+
+span {
+  font-size: 20px;
+}
+.logo-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  
+  
+  .exemple {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
 }
